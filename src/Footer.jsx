@@ -1,9 +1,9 @@
 export default function Footer(){
     return(
         <div className="footer footer-horizontal footer-center text-lg font-medium bg-linear-65 from-blue-400 to-blue-700 text-base-content rounded p-10">
-    <nav className="grid grid-flow-col gap-4">
-        <a className="link link-hover">About Me</a>
-        <a className="link link-hover">Contact Me</a>
+    <nav className="grid grid-flow-col gap-10">
+        <a className="link link-hover">About</a>
+        <a className="link link-hover">Contact</a>
         <a className="link link-hover">My Projects</a>
     </nav>
     <nav>

@@ -5,13 +5,13 @@ import Dasar from './assets/BackEndDasar.png';
 import Lanjut from './assets/CloudDasar.png';
 export default function About(){
     return(
-        <section className="tools flex flex-col items-center w-full min-h-screen font-[Poppins] text-black my-5">
+        <section className="tools flex flex-col items-center justify-center w-full min-h-screen font-[Poppins] text-black my-5 overflow-hidden">
             <div className="top text-center" data-aos="fade">
                 <p className="AboutMe text-2xl font-bold text-blue-600">About Me</p>
                 <p>Berikut Ini Adalah Beberapa Project dan Pencapaian yang Saya Miliki Saat ini</p> 
                 <p className="italic">Here is My Project & My Achievement I've Reach.</p>   
             </div>
-            <div className="card grid md:grid-cols-2 md:grid-rows-2 gap-3 mt-10 w-[80%]">
+            <div className="card grid  lg:grid-cols-2 md:grid-rows-2 max-sm:scale-80 gap-3 place-content-center my-5 w-[80%]">
                 <div className="card1 bg-white drop-shadow-md flex flex-col justify-between p-3 rounded-md w-fit hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
@@ -27,19 +27,20 @@ export default function About(){
                         </div>
                     </div>
                     <div className="info text-sm font-light p-3 text-justify w-full">
-                            <p className="h-20">"FelienZ Resto-App" adalah sebuah aplikasi layanan web yang menyediakan layanan pemesanan Menu secara Daring.
+                            <p className="h-15">"FelienZ Resto-App" adalah sebuah aplikasi layanan web yang menyediakan layanan pemesanan Menu secara Daring.
                                 Pembuatan Web ini menggunakan beberapa tools yaitu:
                             </p>
-                            <div className="tech-stack flex font-semibold flex-col w-full gap-3">
+                    </div>
+                    <div className="tech-stack flex font-semibold flex-col w-full gap-3 p-3">
                             <p>Tech Stack: </p>
                                 <ul className="list-none flex gap-2 font-normal">
                                     <li className="py-1 bg-gray-200 rounded-full px-2">MongoDB</li>
                                     <li className="py-1 bg-gray-200 rounded-full px-2">ExpressJs</li>
-                                    <li className="py-1 bg-gray-200 rounded-full px-2">EJS, EJS Layouts</li>
+                                    <li className="py-1 bg-gray-200 rounded-full px-2">EJS</li>
                                     <li className="py-1 bg-gray-200 rounded-full px-2">NodeJs</li>
                                 </ul>                                
                         </div>
-                        <div className="features mt-3">
+                    <div className="features p-3 text-nowrap">
                             <p className="font-semibold text-md">Key Features: </p>
                             <ul className="list-none">
                                 <li className="flex gap-2 items-center"><FontAwesomeIcon icon={faCircleCheck} className="text-green-500"/>Basic Authentication</li>
@@ -48,7 +49,6 @@ export default function About(){
                                 <li className="flex gap-2 items-center"><FontAwesomeIcon icon={faCircleCheck} className="text-green-500"/>Interactive Comment Section</li>
                             </ul>
                         </div>
-                    </div>
                 </div>
                 <div className="card2 bg-white drop-shadow-md flex flex-col justify-between p-3 rounded-md w-fit hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
@@ -65,10 +65,11 @@ export default function About(){
                         </div>
                     </div>
                     <div className="info text-sm font-light p-3 text-justify w-full">
-                            <p className="h-20">"LokaStore" adalah sebuah aplikasi layanan web yang menyediakan layanan Belanja Online.
+                            <p className="h-15">"LokaStore" adalah sebuah aplikasi layanan web yang menyediakan layanan Belanja Online.
                                 Pembuatan Web ini menggunakan beberapa tools yaitu:
                             </p>
-                            <div className="tech-stack flex font-semibold flex-col w-full gap-3">
+                    </div>
+                    <div className="tech-stack flex font-semibold flex-col w-full gap-3 p-3">
                             <p>Tech Stack: </p>
                                 <ul className="list-none flex gap-2 font-normal">
                                     <li className="py-1 bg-gray-200 rounded-full px-2">MongoDB</li>
@@ -77,7 +78,7 @@ export default function About(){
                                     <li className="py-1 bg-gray-200 rounded-full px-2">NodeJs</li>
                                 </ul>                                
                         </div>
-                        <div className="features mt-3">
+                    <div className="features p-3">
                             <p className="font-semibold text-md">Key Features: </p>
                             <ul className="list-none">
                                 <li className="flex gap-2 items-center"><FontAwesomeIcon icon={faCircleCheck} className="text-green-500"/>OAuth Google Authentication</li>
@@ -86,9 +87,8 @@ export default function About(){
                                 <li className="flex gap-2 items-center"><FontAwesomeIcon icon={faCircleCheck} className="text-green-500"/>Interactive Comment Section</li>
                             </ul>
                         </div>
-                    </div>
                 </div>
-                <div className="card3 bg-white drop-shadow-md p-3 rounded-md hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
+                <div className="card3 bg-white drop-shadow-md p-3 rounded-md flex flex-col justify-evenly hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
                         <FontAwesomeIcon icon={faTrophy} className="text-white"/> 
@@ -109,7 +109,7 @@ export default function About(){
                         </div>
                     </div>
                 </div>
-                <div className="card4 bg-white drop-shadow-md p-3 rounded-md hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
+                <div className="card4 bg-white drop-shadow-md p-3 rounded-md flex flex-col justify-evenly hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
                         <FontAwesomeIcon icon={faTrophy} className="text-white"/> 
