@@ -13,6 +13,11 @@ export default function App(){
           easing:"ease-in"
         });
       }, []);
+      useEffect(()=>{
+        const script = document.createElement('script');
+        script.src = '/src/script.js';
+        document.body.appendChild(script);
+      },[])
     return(
         <main className="bg-white min-h-screen w-full">
             <Header />

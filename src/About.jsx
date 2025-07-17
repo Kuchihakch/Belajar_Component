@@ -12,7 +12,7 @@ export default function About(){
                 <p className="italic">Here is My Project & My Achievement I've Reach.</p>   
             </div>
             <div className="card grid  lg:grid-cols-2 md:grid-rows-2 max-sm:scale-80 gap-3 place-content-center my-5 w-[80%]">
-                <div className="card1 bg-white drop-shadow-md flex flex-col justify-between p-3 rounded-md w-fit hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
+                <a href="https://felienz-resto-app.onrender.com/" className="card1 bg-white drop-shadow-md flex flex-col justify-between p-3 rounded-md w-fit hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
                         <FontAwesomeIcon icon={faUtensils} className="text-white"/> 
@@ -49,7 +49,7 @@ export default function About(){
                                 <li className="flex gap-2 items-center"><FontAwesomeIcon icon={faCircleCheck} className="text-green-500"/>Interactive Comment Section</li>
                             </ul>
                         </div>
-                </div>
+                </a>
                 <div className="card2 bg-white drop-shadow-md flex flex-col justify-between p-3 rounded-md w-fit hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
@@ -88,7 +88,7 @@ export default function About(){
                             </ul>
                         </div>
                 </div>
-                <div className="card3 bg-white drop-shadow-md p-3 rounded-md flex flex-col justify-evenly hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
+                <a href="https://www.dicoding.com/certificates/KEXL2E4Y0ZG2" className="card3 bg-white drop-shadow-md p-3 rounded-md flex flex-col justify-evenly hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
                         <FontAwesomeIcon icon={faTrophy} className="text-white"/> 
@@ -108,8 +108,8 @@ export default function About(){
                             <img src={Dasar} alt="E-Certificate" className="size-fit"/>
                         </div>
                     </div>
-                </div>
-                <div className="card4 bg-white drop-shadow-md p-3 rounded-md flex flex-col justify-evenly hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
+                </a>
+                <a href="https://www.dicoding.com/certificates/0LZ0RKNG3P65" className="card4 bg-white drop-shadow-md p-3 rounded-md flex flex-col justify-evenly hover:drop-shadow-blue-500 hover:drop-shadow-sm" data-aos="fade-up">
                     <div className="atas font-bold text-md flex gap-3 items-center">
                         <div className="logo rounded-full bg-blue-600 size-12 flex justify-center items-center">
                         <FontAwesomeIcon icon={faTrophy} className="text-white"/> 
@@ -129,7 +129,7 @@ export default function About(){
                             <img src={Lanjut} alt=""  className="size-fit"/>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </section>
     )

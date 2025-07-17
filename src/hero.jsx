@@ -27,19 +27,19 @@ export default function Body(){
              <p>I'm a Unsri Student's that currently passionate in Web Development, I Explore Either Front-End and Back-End Technology.</p>
              <div className="info self-end flex justify-start max-sm:justify-center w-full items-center gap-3">
                 <div className="Connect flex gap-3 text-2xl">
-                    <div data-aos="fade" className="github rounded-full p-2 flex justify-center bg-white drop-shadow-lg items-center hover:drop-shadow-md hover:drop-shadow-gray-500">
+                    <a href="https://github.com/FelienZ" data-aos="fade" className="github rounded-full p-2 flex justify-center bg-white drop-shadow-lg items-center hover:drop-shadow-md hover:drop-shadow-gray-500">
                         <FontAwesomeIcon icon={faGithub} />
-                    </div>
-                    <div data-aos="fade" className="linkedin rounded-full p-2 text-blue-800 flex justify-center bg-white drop-shadow-lg items-center hover:drop-shadow-md hover:drop-shadow-blue-500">
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammad-rajab-fadhly/" data-aos="fade" className="linkedin rounded-full p-2 text-blue-800 flex justify-center bg-white drop-shadow-lg items-center hover:drop-shadow-md hover:drop-shadow-blue-500">
                         <FontAwesomeIcon icon={faLinkedin} />
-                    </div>
-                    <div data-aos="fade" className="whatsapp rounded-full p-2 flex justify-center text-green-500 bg-white drop-shadow-lg items-center hover:drop-shadow-md hover:drop-shadow-green-500">
+                    </a>
+                    <a href="https://wa.me/6281229564138/" data-aos="fade" className="whatsapp rounded-full p-2 flex justify-center text-green-500 bg-white drop-shadow-lg items-center hover:drop-shadow-md hover:drop-shadow-green-500">
                         <FontAwesomeIcon icon={faWhatsapp} />
-                    </div>
+                    </a>
                 </div>
              </div>
                 <div className="button flex w-fit self-end gap-2">
-                    <button className="btn btn-primary text-white w-fit hover:shadow-md hover:shadow-blue-500"><FontAwesomeIcon icon={faNoteSticky} /> More About Me</button>
+                    <button id="more" className="btn btn-primary text-white w-fit hover:shadow-md hover:shadow-blue-500"><FontAwesomeIcon icon={faNoteSticky} /> More About Me</button>
                     <button className="btn btn-outline btn-primary text-blue-700 w-fit hover:bg-white"><FontAwesomeIcon icon={faDownload} /> My Cv</button>
                 </div>
             </div>
