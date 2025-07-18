@@ -10,7 +10,7 @@ export const dataProjects = [
         tags: [{year: 2025, dev:"FelienZ"}],
         description :`"FelienZ Resto-App" adalah sebuah aplikasi layanan web yang menyediakan layanan pemesanan Menu secara Daring. Pembuatan Web ini menggunakan beberapa tools yaitu:`,
         tools: ["MongoDB", "ExpressJs", "EJS", "NodeJs"],
-        Features: ["Basic Authentication", "Transaction Schema", "Live Search Box", "Interative Comment Section"]
+        Features: ["Basic Authentication", "Transaction Schema", "Live Search Box", "Interactive Comment Section"]
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ export const dataProjects = [
         tags: [{year: 2025, dev: "FelienZ"}],
         description :`"LokaStore" adalah sebuah aplikasi layanan web yang menyediakan layanan Belanja Online. Pembuatan Web ini menggunakan beberapa tools yaitu:`,
         tools: ["MongoDB", "ExpressJs", "React", "NodeJs"],
-        Features: ["Oauth Google Authentication", "Transaction Schema", "Live Search Box", "Interative Comment Section"]
+        Features: ["Oauth Google Authentication", "Transaction Schema", "Live Search Box", "Interactive Comment Section"]
     }
 ]
 
