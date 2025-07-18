@@ -5,6 +5,7 @@ import About from "./About";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Tools from "./Tools";
 export default function App(){
     useEffect(() => {
         Aos.init({
@@ -15,7 +16,7 @@ export default function App(){
       }, []);
       useEffect(()=>{
         const script = document.createElement('script');
-        script.src = '/src/script.js';
+        script.src = '/src/script/script.js';
         document.body.appendChild(script);
       },[])
     return(
@@ -23,6 +24,7 @@ export default function App(){
             <Header />
             <Hero />
             <About/>
+            <Tools/>
             <Footer/>
         </main>
     )

@@ -8,7 +8,7 @@ import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-i
 import { faDownload, faNoteSticky } from "@fortawesome/free-solid-svg-icons"
 export default function Body(){
     return(
-        <section className="grid md:grid-cols-2 place-content-center md:place-items-center-safe w-full min-h-screen max-sm:gap-y-10 sm:gap-y-5 gap-x-10 font-[Poppins] p-20">
+        <section id="home" className="grid md:grid-cols-2 place-content-center md:place-items-center-safe w-full min-h-screen max-sm:gap-y-10 sm:gap-y-5 gap-x-10 font-[Poppins] p-20">
             <div className="image grid grid-cols-4 grid-rows-2 w-90 lg:w-120 gap-2 m-auto">
                 <div className="row-span-2 flex flex-col justify-center gap-2">
                     <img src={Foto} alt="profile" data-aos="slide-left" className="w-fit self-end bg-gray-200 px-4 shadow-inner shadow-gray-500 border-3 border-black hover:drop-shadow-xl drop-shadow-black"/>
